@@ -2,10 +2,10 @@
 Mod 15: Statistics and R
 # Project Overview
 In this project, statistics and hypothesis testing is used to analyze a series of datasets from AutosRUs’ and their competition using the R programming language. Below are some of the specific statistical tests that we will be running:
-•	Perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes
-•	Collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots
-•	Run t-tests to determine if the manufacturing lots are statistically different from the mean population
-•	Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. For each statistical analysis, you’ll write a summary interpretation of the findings.
+ •	Perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes
+ •	Collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots
+ •	Run t-tests to determine if the manufacturing lots are statistically different from the mean population
+ •	Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. For each statistical analysis, you’ll write a summary interpretation of the findings.
 
 ## Linear Regression to Predict MPG
  
@@ -33,9 +33,9 @@ A review of the results of the T-test for the suspension coils across all manufa
  ![Lot Summary](https://user-images.githubusercontent.com/96449605/163629643-03d4a7be-d6eb-4d33-a466-d689b602c7ad.png)
 
 
-1.	Lot 1. Reviewing the output for Lot 1 and its associated p-value = 1, we can see that it is not statistically significant and so therefore can confidently reject the null hypothesis.
-2.	Lot 2. Reviewing the output for Lot 2 and its associated p-value = 0.6072, we can see that it is not statistically significant and so therefore can confidently reject the null hypothesis.
-3.	Lot 3. Reviewing the output for Lot 3 and its associated p-value = 0.04168, we can see that it is statistically significant and so therefore can confidently reject the null hypothesis.
+  1.	Lot 1. Reviewing the output for Lot 1 and its associated p-value = 1, we can see that it is not statistically significant and so therefore can confidently reject the null hypothesis.
+  2.	Lot 2. Reviewing the output for Lot 2 and its associated p-value = 0.6072, we can see that it is not statistically significant and so therefore can confidently reject the null hypothesis.
+  3.	Lot 3. Reviewing the output for Lot 3 and its associated p-value = 0.04168, we can see that it is statistically significant and so therefore can confidently reject the null hypothesis.
 
 
 
@@ -51,8 +51,8 @@ With global warming and green energy being on everyone’s mind these days, econ
 
 Null and Alternative Hypothesis
 
-•	Null Hypothesis = there is no difference in statistical significance between the MechaCar and its competition and so are equal. 
-•	Alternative Hypothesis = there is a difference in statistical significance between the MechaCar and its competition and so are not equal.
+ •	Null Hypothesis = there is no difference in statistical significance between the MechaCar and its competition and so are equal. 
+ •	Alternative Hypothesis = there is a difference in statistical significance between the MechaCar and its competition and so are not equal.
 
 Statistical Test Used
 
@@ -61,8 +61,8 @@ Since we’re determining statistical significance, we will use the one-way ANOV
 What data is needed
 
 To perform this ANOVA test, we would need:
-•	A dependent variable that is continuous and numerical variable. In this case, we are testing MPG, which would satisfy that requirement. 
+ •	A dependent variable that is continuous and numerical variable. In this case, we are testing MPG, which would satisfy that requirement. 
 
-•	An independent variable when using ANOVA that compare against vehicles of the same class using multiple categorical variables. This would be the different vehicles for comparison, the MechaCar prototype included. 
+ •	An independent variable when using ANOVA that compare against vehicles of the same class using multiple categorical variables. This would be the different vehicles for comparison, the MechaCar prototype included. 
 
-•	Sufficiently large (at least 30) sample sizes of each group. We would also operate under the assumption that the dependent variable (mpg) is normally distributed and that the variance among each group is similar.
+ •	Sufficiently large (at least 30) sample sizes of each group. We would also operate under the assumption that the dependent variable (mpg) is normally distributed and that the variance among each group is similar.
